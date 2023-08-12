@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+            <h1>Your Slogan Here</h1>
+        </div>
+    </header>
+    <div class="background-img"></div>
+    <div class="signin-container">
+        <div class="signin-card">
+            <h2>Sign In</h2>
+            <form class="signin-form" action="your-login-endpoint" method="POST">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <div class="password-input">
+                        <input type="password" id="password" name="password" required>
+                        <span class="show-password">Show Password</span>
+                    </div>
+                </div>
+                <div class="remember-me">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember Me</label>
+                </div>
+                <button type="submit" class="signin-button">Sign In</button>
+            </form>
+        </div>
+        <div class="switch-form">
+            Don't have an account? <a href="signup.html">Sign Up</a>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

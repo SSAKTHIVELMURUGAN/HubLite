@@ -1,0 +1,89 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header, Background Image, and Container styles are the same as the previous example */
+
+/* Signin Card */
+.signin-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    margin: auto;
+}
+
+.signin-card h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.signin-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #666666;
+}
+
+.signin-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+/* Password Input */
+.password-input {
+    position: relative;
+}
+
+.password-input input[type="password"] {
+    padding-right: 40px;
+}
+
+.show-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #007bff;
+    font-size: 12px;
+}
+
+/* Remember Me */
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #666666;
+}
+
+/* Signin Button styles are the same as the previous example */
+
+/* Switch Form */
+.switch-form {
+    text-align: center;
+    margin-top: 20px;
+    color: #666666;
+}
+
+.switch-form a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}

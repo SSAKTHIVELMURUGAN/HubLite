@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+            <h1>Your Slogan Here</h1>
+        </div>
+    </header>
+    <div class="background-img"></div>
+    <div class="signup-container">
+        <div class="signup-card">
+            <h2>Sign Up</h2>
+            <form class="signup-form" action="your-server-endpoint" method="POST">
+                <div class="form-group">
+                    <label for="username">Full Name:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <button type="submit" class="signup-button">Sign Up</button>
+            </form>
+        </div>
+        <div class="switch-form">
+            Already have an account? <a href="signin.html">Sign In</a>
+        </div>
+        <div class="social-signup">
+            <p>or sign up with:</p>
+            <div class="social-icons">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook">Facebook</a>
+                <a href="#"><img src="google-icon.png" alt="Google">Google</a>
+                <a href="#"><img src="X.png" alt="X">X</a>
+            </div>
+            <div class="terms">
+                <label>
+                    <input type="checkbox" id="agree-terms">
+                    I agree to the <a href="#">Terms and Conditions</a>
+                </label>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </footer>
+    <!-- Include your JavaScript file -->
+    <script src="signup.js"></script>
+</body>
+</html>
